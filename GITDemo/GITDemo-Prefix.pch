@@ -1,0 +1,19 @@
+//
+//  GITDemo-Prefix.pch
+//  GITDemo
+//
+//  Created by wangguoliang on 15/9/7.
+//  Copyright (c) 2015年 wangguoliang. All rights reserved.
+//
+
+#ifndef GITDemo_GITDemo_Prefix_pch
+#define GITDemo_GITDemo_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//获取物理屏幕的尺寸
+#define kScreenHeight ([UIScreen mainScreen].bounds.size.height)
+#define kScreenWidth ([UIScreen mainScreen].bounds.size.width)
+
+#endif
